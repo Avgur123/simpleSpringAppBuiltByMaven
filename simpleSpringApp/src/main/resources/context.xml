@@ -9,8 +9,4 @@
 
     <context:component-scan base-package="component"/>
 
-    <bean id="print" class="component.Print">
-
-    </bean>
-
 </beans>

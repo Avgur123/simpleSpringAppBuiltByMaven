@@ -3,8 +3,9 @@ package component;
 import component.figure.Figure;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
-
+@Component
 public class Print {
     @Autowired
     @Qualifier("rectangle")
